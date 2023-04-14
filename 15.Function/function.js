@@ -38,14 +38,16 @@ indexItem([1,5,8,9, "b", 3, 4, 7], "b");
 
 //or
 //function indexItem(arr, str) {
-  //for (i = 0; i < arr.length; i++) {
-   // if (arr[i] == str) {
-      //console.log(i);
-    //} else {
-    //  continue;
-   // }
-  //}
-//}we can write this type
+//  for (i = 0; i < arr.length; i++) {
+//    if (arr[i] == str) {
+//      return (i);
+//    } else {
+//      continue;
+//    }
+//  }
+//}
+//console.log(indexItem([1,5,8,9, "b", 3, 4, 7], "b"));
+//we can also write the third task in this way
 
 /////////////// 4.Return the Sum of Two Numbers.
 let addition = function (a, b) {

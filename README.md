@@ -1,2 +1,2 @@
 # javascript-class
-+ simple-calculator:https://fastidious-puppy-c5586e.netlify.app/
++ simple-calculator:https://grand-daifuku-16b201.netlify.app/

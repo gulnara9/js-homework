@@ -1,0 +1,92 @@
+.general {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  background-color: bisque;
+  padding: 40px;
+  width: 450px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#result {
+  width: 414px;
+  height: 30px;
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 20px;
+  text-align: right;
+
+}
+span {
+  width: 419px;
+}
+span #value1,
+#value2 {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+
+}
+#addition,
+#substract,
+#multiply,
+#division,
+#reset {
+  width: 414px;
+  height: 38px;
+  border-radius: 10px;
+}
+#reset {
+  background-color: rgb(215, 119, 56);
+}
+@media only screen and (max-width: 767px) {
+  .calculator {
+    padding: 5%;
+    width: 90%;
+    max-width: 500px;
+  }
+  .calculator {
+    padding: 3%;
+    width: 80%;
+  }
+  #result {
+    width: 80%;
+    height: 25px;
+    font-size: 20px;
+  }
+  span {
+    width: 80%;
+  }
+  span #value1,
+  #value2 {
+    width: 45%;
+    height: 25px;
+    font-size: 16px;
+  }
+  #addition,
+  #substract,
+  #multiply,
+  #division,
+  #reset {
+    width: 80%;
+    height: 30px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .calculator {
+    padding: 3%;
+    width: 70%;
+    max-width: 600px;
+  }
+}

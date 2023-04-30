@@ -35,14 +35,15 @@ multiplyBtn.addEventListener("click", function () {
   if (value1.value === "" || value2.value === "") {
     alert("Value is empty, please enter a value ");
   } else {
-    let multiply = parseFloat(value1.value) * parseFloat(value2.value);
+    let multiply = +value1.value * +value2.value;
     result.innerHTML = multiply;
   }
 });
 // division
 divisionBtn.addEventListener("click", function () {
-  if (value1.value === "" || value2.value === "") {
-    alert("Value is empty, please enter a value ");
+  if (!isNumeric(value1.value) || !isNumeric(value2.value)) {
+    alert("Please enter valid values");
+    return;
   }
   if (value2.value === "0") {
     result.innerHTML = "Error";
@@ -52,6 +53,10 @@ divisionBtn.addEventListener("click", function () {
     result.innerHTML = divide;
   }
 });
+
+function isNumeric(value) {
+  return /^-?\d+$/.test(value);
+}
 
 // reset
 resetBtn.addEventListener("click", function () {

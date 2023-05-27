@@ -1,0 +1,52 @@
+.section2 {
+  .texts {
+    margin-top: 130px;
+    text-align: center;
+    line-height: 25px;
+    h1 {
+      font-weight: 600;
+      font-size: 36px;
+    }
+    p {
+      font-weight: 300;
+      font-size: 14px;
+      color: #777777;
+    }
+  }
+  .cardss {
+    justify-content: center;
+    gap: 40px;
+    margin: 5%;
+    .card {
+      //    width: 22rem;
+      padding: 40px 30px 30px 30px;
+      .card-body {
+        h3 {
+          font-size: 18px;
+          font-weight: 600;
+          box-sizing: border-box;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+        p {
+          font-weight: 300;
+          font-size: 14px;
+          color: #777777;
+
+          line-height: 23px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  //   @media only screen and (min-width:991px){
+  //     .section2 .cards .card{
+  //         width: 22rem;
+  //     }
+  // }
+  // @media only screen and (max-width:991px){
+  //     .section2 .cards .card{
+  //         width: 800px;
+  //     }
+  // }
+}

@@ -1,0 +1,19 @@
+footer{
+    .footer{
+        padding: 60px;
+        display: flex;
+        align-items:center ;
+        justify-content: space-between;
+        .icons{
+            font-size: 36px;
+        }
+        .text{
+            p{
+               span{
+                color:rgb(166, 0, 64);
+            } 
+            }
+            
+        }
+    }
+}

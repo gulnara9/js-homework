@@ -66,7 +66,7 @@ search.addEventListener("input", function (e) {
     let filteredCard = response.data.filter((item) =>
       item.title.toLowerCase().includes(e.target.value.toLowerCase())
     );
-    cardsContainer.innerHTML = ""; // Əvvəlki kartları silin
+    cardsContainer.innerHTML = ""; 
     drawCard(filteredCard);
   });
 });
@@ -83,7 +83,7 @@ sort.addEventListener("click", function () {
     });
 
     accendingCard = !accendingCard;
-    cardsContainer.innerHTML = ""; // Əvvəlki kartları silin
+    cardsContainer.innerHTML = ""; 
     drawCard(sortData);
   });
 });
